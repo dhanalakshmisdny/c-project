@@ -4,7 +4,7 @@ pipeline {
     stage("Clone Repo"){
       steps{
         sh 'rm -rf /var/lib/jenkins/workspace/new-build/c-project'
-        sh 'git clone https://github.com/VijayKeerthan/c-project.git'
+        sh 'git clone https://github.com/dhanalakshmisdny/c-project.git'
       }
     }
     stage("Build project"){
